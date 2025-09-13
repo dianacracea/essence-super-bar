@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essence Super Bar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fef9f3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff7f50;
+            color: white;
+        }
+
+        .cocktail-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .cocktail {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .cocktail:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .cocktail img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .cocktail h2 {
+            margin: 10px 0;
+        }
+
+        .cocktail ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Essence Super Bar</h1>
+    </header>
+
+    <section class="cocktail-list">
+        <div class="cocktail">
+            <img src="mojito.png" alt="Mojito">
+            <h2>Mojito</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>50ml rom alb</li>
+                <li>30ml suc lime</li>
+                <li>10ml sirop zahăr</li>
+                <li>Frunze mentă</li>
+                <li>Apă minerală</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong> Amestecă frunzele de mentă cu siropul de zahăr, adaugă lime și rom, completează cu apă minerală și servește cu gheață.</p>
+        </div>
+
+        <div class="cocktail">
+            <img src="cosmopolitan.png" alt="Cosmopolitan">
+            <h2>Cosmopolitan</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>45ml votcă</li>
+                <li>15ml triple sec</li>
+                <li>15ml suc lime</li>
+                <li>30ml suc merișoare</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong> Agită toate ingredientele cu gheață și servește într-un pahar de cocktail.</p>
+        </div>
+         <div class="cocktail">
+            <img src="negroni.png" alt="Negroni">
+            <h2>Negroni</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>30ml gin</li>
+                <li>30ml campari</li>
+                <li>30ml Vermuth roșu</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong> Turnați ginul, Campari-ul și vermutul roșu dulce, în cantități egale.
+Amestecați ușor.Garniți cu o coajă sau felie de portocală.</p>
+        </div>
+        <div class="cocktail">
+            <img src="pina colada.png" alt="Pina Colada">
+            <h2>Pina Colada</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>60ml rom alb</li>
+                <li>100ml suc de ananas</li>
+                <li>40ml lapte de cocos</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong> Pune ingredientele într-un blender: romul, sucul de ananas și crema de cocos.Adaugă gheață pisată sau cuburi de gheață. 
+Amestecă totul până la obținerea unei consistențe fine și cremoase, aproximativ 30 de secunde.Toarnă amestecul într-un pahar înalt sau un pahar de tip hurricane.</p>
+        </div>
+         <div class="cocktail">
+            <img src="cuba libre.png" alt="Cuba Libre">
+            <h2>Cuba Libre</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>50ml rom alb</li>
+                <li>150ml suc Coca-Cola</li>
+                <li>20ml suc lime</li>
+                <li>Feli de lime</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Adaugă toate ingredientele într-un pahar înalt, în care ai pus cuburi de gheață.Poți decora paharul cu una dintre feliile de limetă.</p>
+        </div>
+        <div class="cocktail">
+            <img src="long island ice tea.png" alt="Long Island Ice Tea">
+            <h2>Long Island Ice Tea</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>20ml votcă</li>
+                <li>20ml Gin</li>
+                <li>20ml rom alb</li>
+                <li>20ml Tequila</li>
+                 <li>20ml Triplu sec</li>
+                  <li>20ml Coca-Cola</li>
+                   <li>20ml suc de lamaie/lime</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Toarnă ginul, vodca, tequila, romul și triple sec-ul într-un ulcior mare (1,5 l) și adaugă suc de lime după gust.Adăugați cola și apoi amestecați pentru a omogeniza. Încorporați feliile de lime.</p>
+        </div>
+        <div class="cocktail">
+            <img src="tequila sunrise.png" alt="Tequila Sunrise" width="277" height="302">
+            <h2>Tequila Sunrise</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>60ml tequila</li>
+                <li>120ml suc de portocale</li>
+                <li>15ml sirop de grenadine</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Toarnă grenadina în fundul unui pahar înalt și dă deoparte. Umple un shaker de cocktailuri cu gheață și adaugă tequila  și sucul de portocale. Agita până când exteriorul shakerului se simte rece.</p>
+        </div>
+         <div class="cocktail">
+            <img src="rum sunset.png" alt="Rum Sunset"  width="277" height="302">
+            <h2>Rum Sunset</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>60ml rom alb</li>
+                <li>120ml suc de portocale</li>
+                <li>15ml sirop de grenadine</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Toarnă grenadina în fundul unui pahar înalt și dă deoparte. Umple un shaker de cocktailuri cu gheață și adaugă romul alb și sucul de portocale. Agita până când exteriorul shakerului se simte rece.</p>
+        </div>
+         <div class="cocktail">
+            <img src="blue lagoon.png" alt="Blue Lagoon">
+            <h2>Blue Lagoon</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>30ml votcă</li>
+                <li>30ml Curacao </li>
+                <li>30ml limonadă </li>
+                
+            </ul>
+            <p><strong>Instrucțiuni:</strong>umple un pahar cu cuburi de gheață, adaugă Blue Curaçao și vodka, apoi completează cu suc de lămâie</p>
+            </div>
+         <div class="cocktail">
+            <img src="daiquri.png" alt="Daiquri">
+            <h2>Daiquri</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>50ml rom alb</li>
+                <li>15ml suc de lamaie </li>
+                <li>10ml apa plată </li>
+                
+            </ul>
+            <p><strong>Instrucțiuni:</strong>⁠Pune toate ingredientele într-un shaker cu gheață.⁠Agită energic timp de 10–15 secunde.⁠Strecoară într-un pahar de cocktail, bine răcit.</p>
+            </div>
+            <div class="cocktail">
+            <img src="baby blue.jpg" alt="Baby Blue">
+            <h2>Baby Blue</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>30ml curacao</li>
+                <li>60ml coconut rum</li>
+                <li>60ml suc de ananas</li>
+                <li>15ml suc de lămâie</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>AGITAȚI toate ingredientele cu gheață.Strecurați fin într-un pahar răcit.</p>
+            </div>
+ <div class="cocktail">
+            <img src="sex on the beach.jpg" alt="Sex on the beach ">
+            <h2>Sex on the beach</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>25ml vodcă</li>
+                <li>25ml suc de piersici</li>
+                <li>40ml suc de portocale</li>
+                <li>20ml suc de merișoare</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Umpleți două pahare înalte cu cuburi de gheață. Turnați vodca, sucul de piersici și sucurile de fructe într-un ulcior mare și amestecați.</p>
+</div>
+<div class="cocktail">
+            <img src="apple pie.jpg" alt="apple pie">
+            <h2>Apple Pie</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>30ml vodcă vanilie</li>
+                <li>30ml Fireball Whiskey</li>
+                <li>120ml suc de mere</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Umpleți două pahare înalte cu cuburi de gheață. Turnați vodca de vanilie, fireball whiskey și sucul de mere  într-un ulcior mare și amestecați.</p>
+</div>
+<div class="cocktail">
+            <img src="fireball.png" alt="fireball">
+            <h2>The Girl on Fireball</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>O sticlă de Strongbow mere</li>
+                <li>30ml Fireball Whiskey</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Amestecați sticla de strongbow de mere cu fireball whiskey</p>
+            </div>
+            <div class="cocktail">
+            <img src="green demon.png" alt="green demon">
+            <h2>Green Demon</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>30ml Midori</li>
+                <li>30ml Vodcă</li>
+                <lI>30ml Rom</lI>
+                <li>limonadă</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Amestecă Midori, vodcă și rom alb într-un pahar.</p>
+            </div>
+             <div class="cocktail">
+            <img src="americano.jpeg" alt="americano">
+            <h2>Americano</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>30ml Campari</li>
+                <li>30ml Vermuth</li>
+                <lI>Apă Minerală</lI>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Adăugați părți egale de Campari și vermut dulce.Completați cu un strop generos de apă minerală.Amestecați ușor cu o lingură.Garnisiți cu o felie de portocală sau o coajă de lămâie.</p>
+            </div>
+             <div class="cocktail">
+            <img src="blue monday.png" alt="blue monday">
+            <h2>Blue Monday</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>60ml Vodcă</li>
+                <li>10ml Triple Sec</li>
+                <lI>10ml Curacao</lI>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Se agită bine toate ingredientele cu gheață și se strecoară într-un pahar de cocktail răcit.Se decorează cu coajă de portocală flambată și se servește.</p>
+            </div>
+            <div class="cocktail">
+            <img src="margarita.png" alt="margarita">
+            <h2>Margarita</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>50ml Tequila</li>
+                <li>10ml Triplu Sec</li>
+                <lI>30ml suc de lime/lămâie</lI>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Cea mai simpla metoda de preparare presupune adaugarea tuturor ingredientelor intr-un shaker si amestecarea acestora. Dupa ce ai turnat bautura obtinuta intr-un pahar special, decoreaza-l cu sare si o felie de lime!.</p>
+            </div>
+            <div class="cocktail">
+            <img src="mai tai.png" alt="mai tai">
+            <h2>Mai Tai</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>45ml Rom alb</li>
+                <li>45ml Rom negru/maro</li>
+                <lI>25ml Triplu Sec</lI>
+                <li>15ml suc portocale</li>
+                <li>25ml suc lămâie/lime</li>
+                <li>60ml suc de ananas</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>Adaugă toate ingredientele într-un shaker cu gheață.Agită bine amestecul până când se răcește.Toarnă lichidul într-un pahar înalt sau un pahar tip double rocks plin cu gheață. </p>
+            </div>
+             <div class="cocktail">
+            <img src="brave bull.jpeg" alt="brave bull">
+            <h2>Brave Bull</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>45ml Tequila</li>
+                <li>30ml Kahlua</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>AMESTECAȚI toate ingredientele cu gheață.SE strecoară într-un pahar umplut cu gheață. </p>
+            </div>
+             <div class="cocktail">
+            <img src="moskov mule.png" alt="moskov mule">
+            <h2>Moskov Mule</h2>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>50ml Vodcă</li>
+                <li>Ginger beer</li>
+                <li>Lime juice</li>
+            </ul>
+            <p><strong>Instrucțiuni:</strong>A face un Moscow Mule este extrem de simplu. Pur și simplu adăugați ingredientele într-o cană și amestecați pentru a le combina! Găsiți rețeta completă, pas cu pas, mai jos.
+
+ </p>
+            </div>
+    <footer>
+        <p>Scanează codul QR pentru lista completă de băuturi:</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://exemplu.com/meniu" alt="Cod QR">
+    </footer>
+</body>
+</html>
